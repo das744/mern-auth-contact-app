@@ -1,13 +1,13 @@
 /* To Start the MERN Project Locally */
 
-/* Step 1: Set up MongoDB Atlas */
-- Go to https://cloud.mongodb.com/
+/* Step 1: Set up MongoDB Compass */
 - Create a cluster and database
-- Whitelist your IP and create a user
+- Connect with server
 - Get your connection string and update your backend `.env` file:
 
 ```
-MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority
+create .env file and save this string
+MONGO_URI=mongodb://localhost:27017/project_name
 ```
 
 /* Step 2: Backend Setup */
